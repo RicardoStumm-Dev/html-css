@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+
+<body>
+    <h1>Imagens Dinamica</h1>
+    <p>tente abrir este site em diverso dispostivos diferentes ou simplesmente diminua e aumente o tamanho do seu
+        navegador</p>
+
+    <picture>
+        <!--essa ordem deve ser seguida sempre do menor para maior-->
+        <source media="(max-width: 750px)" srcset="imagens/Pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Media.png" type="image/png">
+        <img src="imagens/Grande.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em html 5</p>
+    <!--
+    <audio src="midia/musicarefletiva.mp3"
+    controls></audio>
+    -->
+    <!--compativel com mp3, wave, ogg-->
+    <audio preload="metadata" controls><!--pode-se usar o autoplay e loop tambem-->
+        <source src="midia/musicarefletiva.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador nao consegue reproduzir audio. <a href="midia/musicarefletiva.mp3">clique aqui para efetuar o download do arquivo mp3</a></p>
+    </audio>
+
+    <h1>Vamos adicionar alguns videos</h1>
+    <video src="midia/pexels-jorge-zaldívar-marroquín-16343098-1920x1080-60fps.mp4" controls ></video>
+</body>
+
+</html>
