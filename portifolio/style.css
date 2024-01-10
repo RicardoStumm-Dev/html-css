@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+
+:root {
+    --cor0:#E1CA96;
+    --cor1:#ACA885;
+    --cor2:#918B76;
+    --cor3:#626C66;
+    --cor4:#434A42;
+    --cor5:#292929;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+}
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 1400px;
+    max-width: none;
+}
+h1 {
+    font-family: 'Yeseva One', serif;
+    font-size: 5.5em;
+
+}
+h1#ricardo {
+    color: var(--cor0);
+    text-align: left;
+    padding-left: 13%;
+    padding-top: 5%;
+}
+h1#stumm {
+    color: var(--cor0);
+    text-align: left;
+    padding-left: 16%;
+    padding-bottom: 3%;
+}
+section#apresentacao {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    margin-left: 10%;
+    border-radius: 10px 0px;
+    width: 460px;
+    font-size: 1.3em;
+}
+img {
+    width: 440px;
+    height: 600px;
+    border-radius: 46% 46% 0px 0px;
+    position: relative;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+}
+div#imgRicardo {
+    display: inline;
+}
