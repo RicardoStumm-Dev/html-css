@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 2</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iduser">Usuario: 
+                <input type="text" name="user" id="iduser" required minlength="5" maxlength="15" placeholder="Nome do Usuario" autocomplete="username">
+            </label>
+        </p>
+        <p>
+            <label for="idpassword">Senha: 
+                <input type="password" name="password" id="idpassword" required minlength="8" maxlength="15" placeholder="Minimo 8 Caracteres" autocomplete="current-password">
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="enviar" >
+            <input type="reset" value="limpar">
+        </p>
+
+        
+        <p>
+            <input type="button" value="enviar" onclick="alert('enviado')">
+        </p>
+        <p>
+            <input type="checkbox" name="checkbox" value="checkbox" checked>
+        </p>
+        <p>
+            <input type="color" name="color" value="color">
+        </p>
+        <p>
+            <input type="date" name="date" value="date">
+        </p>
+        <p>
+            <input type="text" name="text" value="text">
+        </p>
+        <p>
+            <input type="file" name="file" value="file">
+        </p>
+        <p>
+            <input type="datetime"  name="datetime" value="datetime">
+        </p>
+        <p>
+            <input type="datetime-local" name="datetime-local" value="datetime-local">
+        </p>
+        <p>
+            <input type="email" name="email" value="email">
+        </p>
+        <p>
+            <input type="hidden" name="hidden" value="hidden">
+        </p>
+        <p>
+            <input type="image" name="image" value="image">
+        </p>
+        <p>
+            <input type="month" name="month" value="month">
+        </p>
+        <p>
+            <input type="number" name="number" value="number">
+        </p>
+        <p>
+            <input type="password"  name="password">
+        </p>
+        <p>
+            <input type="radio" name="radio" value="radio"> 
+        </p>
+        <p>
+            <input type="range" name="range" value="range">
+        </p>
+        <p>
+            <input type="reset"     name="reset" value="reset">
+        </p>
+        <p>
+            <input type="search" name="search" value="search">
+        </p>
+        <p>
+            <input type="submit" name="submit" value="submit">
+        </p>
+        <p>
+            <input type="tel" name="tel" value="tel">
+        </p>
+        <p>
+            <input type="time" name="time" value="time">
+        </p>
+        <p>
+            <input type="url" name="url" value="url">
+        </p>
+        <p>
+            <input type="week" name="week" value="week">
+        </p>
+        
+    </form>
+</body>
+</html>
